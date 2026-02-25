@@ -1,6 +1,7 @@
 package ex1;
 
 //o main nao ta interativo, só printando pra testar
+//faltando mostrar elenco da série tbm
 public class Main {
     public static void main(String[] args) {
         
