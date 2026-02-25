@@ -17,12 +17,12 @@ public class Paciente {
 
    
     public void mostrarConsultas() {
-        System.out.println("--- Consultas do paciente: " + nome + " ---");
+        System.out.println("=== Consultas do paciente: " + nome + " ===");
         for (int i = 0; i < historicoConsultas.size(); i++) {
             Consulta c = historicoConsultas.get(i);
             System.out.println("Data: " + c.getData() + " | Médico: " + c.getMedicoResponsavel().getNome());
         }
-        System.out.println("---------------------------------------");
+        System.out.println("\n=================================================");
     }
 
     
@@ -34,6 +34,6 @@ public class Paciente {
             System.out.println("Anotações: " + c.getProntuario().getDescricao());
             System.out.println("-");
         }
-        System.out.println("---------------------------------------");
+        System.out.println("\n=================================================");
     }
 }
